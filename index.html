@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css" media="screen" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <script src="script.js"></script>
+</head>
+
+<body>
+<div class="container">				
+    <div class="formularios-row row">
+    <div class="escolher-form">
+        <button class="active">Cadastro</button>
+        <button>Contato</button>
+    </div>
+    <div class="form-container">
+        <form action="" form="formCadastro" class="active">
+            <h1 class="text-center">Cadastro</h1>
+            <div class="form-group">
+                <label for="nomeCadastro" class="sr-only"></label>
+                <input type="text" placeholder="Nome" class="form-control" id="nomeCadastro" name="nomeCadastro">
+            </div>
+            <div class="form-group">
+                <label for="empresaCadastro" class="sr-only"></label>
+                <input type="text" placeholder="Nome da Empresa" class="form-control" id="empresaCadastro" name="empresaCadastro">
+            </div>
+            <div class="form-group">
+                <label for="emailCadastro" class="sr-only"></label>
+                <input type="text" placeholder="E-mail" class="form-control" id="emailCadastro" name="emailCadastro">
+            </div>
+            <div class="form-group">
+                <label for="telefoneCadastro" class="sr-only"></label>
+                <input type="text" placeholder="Telefone" class="form-control" id="telefoneCadastro" name="telefoneCadastro">
+            </div>
+            <div class="form-group">
+                <label for="mensagemCadastro" class="sr-only"></label>
+                <textarea placeholder="Mensagem" class="form-control" id="mensagemCadastro" name="mensagemCadastro"></textarea>
+            </div>
+            <div class="captcha form-group">
+                <img src="img/captcha.png" alt="">
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+        <form action="" form="formContato">
+            <h1 class="text-center">Contato</h1>
+            <div class="form-group">
+                <label for="nomeContato" class="sr-only"></label>
+                <input type="text" placeholder="Nome" class="form-control" id="nomeContato" name="nomeContato">
+            </div>
+            <div class="form-group">
+                <label for="empresaContato" class="sr-only"></label>
+                <input type="text" placeholder="Nome da Empresa" class="form-control" id="empresaContato" name="empresaContato">
+            </div>
+            <div class="form-group">
+                <label for="emailContato" class="sr-only"></label>
+                <input type="text" placeholder="E-mail" class="form-control" id="emailContato" name="emailContato">
+            </div>
+            <div class="form-group">
+                <label for="telefoneContato" class="sr-only"></label>
+                <input type="text" placeholder="Telefone" class="form-control" id="telefoneContato" name="telefoneContato">
+            </div>
+            <div class="form-group">
+                <label for="mensagemContato" class="sr-only"></label>
+                <textarea placeholder="Mensagem" class="form-control" id="mensagemContato" name="mensagemContato"></textarea>
+            </div>
+            <div class="captcha form-group">
+                <img src="img/captcha.png" alt="">
+            </div>
+            <button class="btn" type="submit">Enviar</i></button>
+        </form>
+    </div>
+    </div>
+</div>
+</body>
+
+</html>
